@@ -9,8 +9,4 @@
         background-color: #2f5572;
         color: white;
     }
-
-    &--testimonials {
-        background: url('/assets/images/testimonials-bg')
-    }
 }
