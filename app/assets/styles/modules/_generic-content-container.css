@@ -1,0 +1,15 @@
+.generic-content-container {
+
+    p {
+        line-height: 1.65;
+        margin: 1.8rem 0;
+
+        @media (min-width:400px) {
+            font-size: 1.125rem;
+        }
+
+        a {
+            font-weight: 700;
+        }
+    }
+}
