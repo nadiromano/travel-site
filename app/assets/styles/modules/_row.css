@@ -9,8 +9,21 @@
         margin-bottom: 1rem;
     }
 
+    @media (max-width:400) {
+        &--t-padding {
+            padding-top: 80px;
+        } 
+        
+    }
+
+   
+
 
     @media (min-width:800px) {
+
+        &--t-padding {
+            padding-top: 80px;
+        }        
 
         &--gutters > div:not(:last-child) {
             padding-right: 65px;
@@ -18,6 +31,10 @@
 
         &--gutters-large > div{
             padding-right: 100px;
+        }
+
+        &--gutters-small {
+            margin-right: -45px;
         }
         
         &__medium-4 {
@@ -47,6 +64,19 @@
 
         &__medium-8--smaller {
             width: 63%;
+        }
+    }
+
+    &--equal-height-at-medium {
+
+        @media (min-width: 800px) {
+            display: flex;
+
+        }
+
+        & > div {
+            float: none;
+            display: flex;
         }
     }
    

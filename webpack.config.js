@@ -23,6 +23,7 @@ module.exports = {
         hot: true,
         port: 3000
     },
+    
     mode: 'development',
     module: {
         rules: [
@@ -30,6 +31,7 @@ module.exports = {
                 test: /\.css$/i,
                 use: ['style-loader','css-loader', {loader: "postcss-loader", options: {postcssOptions: {plugins: postCSSPlugins}}}]
             }
+            
         ]
     }
 }
