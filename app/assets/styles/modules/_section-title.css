@@ -6,6 +6,11 @@
     &--blue {
         color: #2f5572;
     }
+
+    &--less-margin {
+        margin-bottom: 1.3rem;
+        margin-top: 0;
+    }
     
 
     @media (min-width:400px) {
